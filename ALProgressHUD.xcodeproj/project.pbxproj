@@ -13,6 +13,7 @@
 		496CDC9B1C445B4100B321AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 496CDC991C445B4100B321AD /* Main.storyboard */; };
 		496CDC9D1C445B4100B321AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 496CDC9C1C445B4100B321AD /* Assets.xcassets */; };
 		496CDCA01C445B4100B321AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 496CDC9E1C445B4100B321AD /* LaunchScreen.storyboard */; };
+		496CDCA91C445BAA00B321AD /* ALProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 496CDCA81C445BA900B321AD /* ALProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		496CDC9C1C445B4100B321AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		496CDC9F1C445B4100B321AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		496CDCA11C445B4100B321AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		496CDCA71C445BA900B321AD /* ALProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALProgressHUD.h; sourceTree = "<group>"; };
+		496CDCA81C445BA900B321AD /* ALProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				496CDC941C445B4100B321AD /* AppDelegate.m */,
 				496CDC961C445B4100B321AD /* ViewController.h */,
 				496CDC971C445B4100B321AD /* ViewController.m */,
+				496CDCA71C445BA900B321AD /* ALProgressHUD.h */,
+				496CDCA81C445BA900B321AD /* ALProgressHUD.m */,
 				496CDC991C445B4100B321AD /* Main.storyboard */,
 				496CDC9C1C445B4100B321AD /* Assets.xcassets */,
 				496CDC9E1C445B4100B321AD /* LaunchScreen.storyboard */,
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				496CDC981C445B4100B321AD /* ViewController.m in Sources */,
+				496CDCA91C445BAA00B321AD /* ALProgressHUD.m in Sources */,
 				496CDC951C445B4100B321AD /* AppDelegate.m in Sources */,
 				496CDC921C445B4100B321AD /* main.m in Sources */,
 			);

@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ALProgressHUD.h"
 
 @interface ViewController ()
 
@@ -16,12 +17,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)tap:(UIButton *)sender {
+    [ALProgressHUD showMessage:@"ERROR"];
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 10 * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
+        [ALProgressHUD dismiss];
+    });
 }
 
 @end

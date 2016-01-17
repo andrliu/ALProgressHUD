@@ -10,4 +10,10 @@
 
 @interface ALProgressHUD : UIView
 
++ (void)show;
+
++ (void)showMessage:(NSString *)message;
+
++ (void)dismiss;
+
 @end
