@@ -306,6 +306,7 @@
 				496CDCA61C445B4100B321AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
